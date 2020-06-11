@@ -1,0 +1,15 @@
+No browser natively understands JSX code.
+So Babel has to convert it to normal Javascript code first.
+To see what that looks like, we can use a tool made by Babel.
+Go to Babel homepage -> babeljs.io -> Try it out -> Copy and paste the create a react component part of the code on the left panel
+We can see that the HTML-looking code is turned into a Javascript function call, which looks a lot more complicated, which is why we use JSX.
+
+
+[HTML vs JSX]
+1. Inline styling
+    HTML
+    <div style="background-color: red;"></div>
+    JSX
+    <div style={{ backgroundColor: 'red' }}></div>
+    If you want any inline styling that involves a dash (ie. background-color), remove the dash and use camel case for JSX
+    
