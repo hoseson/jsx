@@ -1,3 +1,35 @@
+[What is a component?]
+A function or a class
+that produces HTML to show the user (Using JSX)
+and handles feedback from the user (Using Event Handlers)
+
+// Import the React and ReactDOM libraries
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Create a react component
+const App = () => {
+    return <div>Hi there!</div>;
+};
+
+// Take the react component and show it on the screen
+ReactDOM.render(
+    <App />,
+    document.querySelector('#root')
+);
+the id='root' div is found in index.html in public
+
+
+
+[Auto-formatter that has support for VS Code - Prettier]
+Press CTRL + SHIFT + X to go to extensions marketplace on VS Code
+Search for Prettier - Code Formatter
+(by Esben Peterson)
+Install and go to VS Code settings > Text Editor > Formatting > Check Format on Save
+(VS Code will format your code with Prettier every time you save your code)
+
+
+[JSX -> Javascript conversion (Babel)]
 No browser natively understands JSX code.
 So Babel has to convert it to normal Javascript code first.
 To see what that looks like, we can use a tool made by Babel.

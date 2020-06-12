@@ -1,0 +1,67 @@
+[What is React]
+A Javascript library
+The purpose of React is to show content (HTML) to users
+and handle user interaction.
+
+
+[JSX]
+A special dialect of Javascript that allows us to tell
+a React component how it should look when it's rendered
+and shows up on the browser.
+It looks like HTML but can be placed in Javascript code.
+
+
+[React vs. ReactDOM]
+React is split into two libraries
+React knows what a component is and how to make components
+work together. (like a definition)
+ReactDOM knows how to take a component and make it show up
+in the DOM (like a visualisation)
+
+
+[Installing Node JS]
+Check version to check if it is installed if you're not sure
+node -v
+nodejs.org/en/download
+After installing, check node -v again.
+(if it doesn't work try restarting terminal)
+
+
+[How to create a new React project]
+npx create-react-app myapp
+
+However, if you have an old version of Node JS, then do the following:
+npm install -g create-react-app
+(npm seems like it's similar to pip in Python)
+(-g is an argument to globally install the package so it can be
+accessed from any directory)
+create-react-app myapp
+
+
+[Javasript versions]
+ES5 (Support accross all browsers)
+ES2015 (Almost completely supported)
+ES2016~ES2019 (Poor support)
+(But newer versions have newer features for devs, so there is a
+tradeoff)
+
+
+[Babel]
+create-react-app installs many packages by default, including Babel.
+Translates ES2015~ES2019 Code to ES5 code.
+
+
+[Import statements]
+Javascript has similar import statement syntax to Python.
+(ie. import React from 'react';)
+
+import vs. require
+import syntax is part of ES2015
+(ie. import React from 'react';)
+require syntax is part of CommonJS
+(ie. const React = require('react'))
+
+
+[Starting and stopping a React app]
+npm start
+CTRL+C

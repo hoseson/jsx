@@ -1,0 +1,7 @@
+[JSX vs. Javascript (continued)]
+class is a Javascript keyword.
+so JSX doesn't use the keyword class
+it uses className instead
+
+
+[JSX can reference JS variables]
