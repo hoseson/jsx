@@ -5,3 +5,13 @@ it uses className instead
 
 
 [JSX can reference JS variables]
+As a developer it's a good practice to leave inspector(F12) console open
+
+
+[The Three Tenets of Components]
+1. Component Nesting
+    A component can be shown inside of another
+2. Component Reusability
+    We want to make components that can be easily reused throughout the application
+3. Component Configuration
+    We should be able to configure a component when it is created
